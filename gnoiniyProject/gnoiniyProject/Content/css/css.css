@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400);
+@import url(https://fonts.googleapis.com/css?family=Ruslan+Display&subset=latin,cyrillic);
+body{
+	background-image: linear-gradient(0deg, #808080 , #E6E6E6);
+
+}
+
+input{
+	border-radius: 7px;
+	font-size: 18px;
+	font-family: "Arial"
+
+}
+html{
+	min-height: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+*{
+	font-family: "Ruslan Display","Roboto Condensed","Arial";
+}
+
+
+#go{
+	position: relative;
+	top:68px;
+	left: 1000px;
+	font-size: 25px;
+	border-radius: 10px;
+	background-color: #C2C2C2;
+	border: solid;
+	width: 110px;
+
+}
+
+#rega{
+	position: fixed;
+    left: 1130px;
+	font-size: 25px;
+	top: 80px;
+
+}
+
+#pacani{
+	position: fixed;
+	left: 250px;
+	top: 10px;
+}
+
+
+#logo{
+	position: fixed;
+	left: 0px;
+	top: -155px;
+}
+
+
+
+
+
+
+#backgroundPopup{
+  display:none;
+  position:fixed;
+  position:absolute; 
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background:black;
+  border:1px solid black;
+  z-index:1;
+}
+
+#popupContact{
+  display:none;
+  position:fixed;
+  position:absolute; 
+  height:230px;
+  width:250px;
+  background-image: linear-gradient(45deg, #808080 , #E6E6E6);
+  border:2px solid black;
+  z-index:2;
+  padding:12px;
+  font-size:13px;
+  border-radius: 10px;
+}
+
+
+
+
+
+#login{
+	width: 250px;
+	height: 25px;
+	position: relative;
+	top:-1px;
+
+
+	
+
+}
+
+#password{
+	width: 250px;
+	height: 25px;
+	position: relative;
+	top:11px;
+
+}
+
+
+#log{
+	position: relative;
+	top:3px;
+	font-size: 20px;
+}
+
+#pass{
+	position: relative;
+	top:15px;
+	font-size: 20px;
+}
+
+#gobutton{
+	position: relative;
+	width: 253px;
+	height: 30px;
+	top:35px;
+	font-size: 23px;
+	border: 0;
+	background-color: #C2C2C2;
+	
+	border-radius: 7px;
+	border:1px solid black;
+
+
+
+}
+
+#gobutton:hover{
+		color: white;
+}
+
+#nameGo{
+	font-size: 30px;
+	text-align: center;
+
+}
+
+
+
+
+#backgroundPopup1{
+  display:none;
+  position:fixed;
+  position:absolute; 
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background:black;
+  border:1px solid black;
+  z-index:1;
+}
+
+#popupContact1{
+  display:none;
+  position:fixed;
+  position:absolute; 
+  height:300px;
+  width:250px;
+  background-image: linear-gradient(45deg, #808080 , #E6E6E6);
+  border:2px solid black;
+  z-index:2;
+  padding:12px;
+  font-size:13px;
+  border-radius: 10px;
+}
+
+
+
+#login2{
+	width: 250px;
+	height: 25px;
+	position: relative;
+	top:2px;
+}
+
+#password2{
+	width: 250px;
+	height: 25px;
+	position: relative;
+	top:8px;
+
+}
+
+#nickname{
+	width: 250px;
+	height: 25px;
+	position: relative;
+	top:30px;
+
+
+}
+
+#log2{
+	position: relative;
+	top:5px;
+	font-size: 20px;
+}
+
+#pass2{
+	position: relative;
+	top:10px;
+	font-size: 20px;
+}
+
+#nick{
+	position: relative;
+	top:-20px;
+	font-size: 20px;
+}
+
+
+#nameRega{
+	font-size: 30px;
+	text-align: center;
+}
+
+hr{
+	background-color: white;
+	height: 1px;
+}
+
+
+
+#zareg{
+	position: relative;
+	top:40px;
+	height: 40px;
+	width: 250px;
+	font-size: 19px;
+	border:1px solid black;
+	border-radius: 7px;
+	background-color: #C2C2C2;
+
+}
