@@ -3,46 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat</title>
-    <script type="text/javascript" src="~/Scripts/Js.js"> </script>
+    <script src="~/Scripts/jquery-1.6.4.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script src="~/Scripts/util.js"></script>
     <link href="~/Content/css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
     <div id=chat>
         <div id="text">
-            <p> Привет, покет!</p>
-            <p> лаолаолот</p>
-            <p> лывалыьал</p>
-            <p> львалвьаль</p>
-            <p>льлтпотот</p>
-            <p>лщвылщвл</p>
         </div>
         <div id="fon1"></div>
     </div>
-    <textarea maxlength="256" type="text" placeholder="Введите сообщение..."></textarea>
+    <textarea id="message" maxlength="256" type="text" readonly placeholder="Введите сообщение..."></textarea>
 
 
     <div id=spis>
-        <dl>
-            <dt>Говно</dt>
-            <dt>Залупа</dt>
-            <dt>Пенис</dt>
-            <dt>Хер</dt>
-            <dt>Давалка</dt>
-            <dt>Хуй</dt>
-            <dt>Блядина</dt>
-            <dt>Головка</dt>
-            <dt>Шлюха</dt>
-            <dt>Жопа</dt>
-            <dt>Член</dt>
-            <dt>Еблан</dt>
-            <dt>Петух</dt>
-            <dt>Мудила</dt>
+        <dl id="userList">
         </dl>
     </div>
     <div id=vidz>виджЕты</div>
-    <div id="name"> Мой ник</div>
-    <button id=enter> Вбросить</button>
+    <div><textarea maxlength="10" typeof="text" placeholder="Кликуха?.." id="name"></textarea></div>
+    <button id="connect"> осталось с авторизацией/куком разобраться, пока введи ник справа и жми сюда <b> ЖМЮ </b> </button>
 
+    <button id=enter>Вбросить</button>
+
+    <input id="hdId" type="hidden"/>
+    <input id="username" type="hidden"/>
 </body>
 </html>

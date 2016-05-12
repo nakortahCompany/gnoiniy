@@ -1,107 +1,117 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400);
 
-*{
-	font-family:"Roboto Condensed"
-}
-body{
-	background-image: linear-gradient(0deg, #808080 , #E6E6E6);
-
+* {
+    font-family: "Roboto Condensed";
 }
 
-html{
-	min-height: 100%;
+body {
+    background-image: linear-gradient(0deg, #808080, #E6E6E6);
 }
 
-textarea{
-	width: 1000px;
-	height: 50px;
-	position: fixed;
-	top:530px;
-	font-size: 20px;
-	display: inline-block;
-	text-align: left;
-	resize: none;
-	font-size: 15px;
-	border: solid black 1px;	
+html {
+    min-height: 100%;
 }
 
-
-#spis{
-	width: 200px;
-	height: 444px;
-	background-color: white;
-	position: fixed;
-	left: 1020px;
-	top:70px;
-	border: solid black 1px;
-	text-align: center;
-}
-
-#vidz{
-	width: 1003px;
-	height: 20px;
-	background-color: white;
-	border: solid black 1px;
-	position: fixed;
-	top:43px;
-	text-align: center;
-
-}
-#name{
-	width: 200px;
-	height: 20px;
-	background-color: white;
-	border: solid black 1px;
-	position: fixed;
-	left: 1020px;
-	top: 43px;
-	text-align: center;
-	font-size: 19px;
-}
-
-#enter{
-	width: 200px;
-	height: 55px;
-	background-color: white;
-	border: solid black 1px;
-	position: fixed;
-	top: 530px;
-	left: 1020px;
-	font-size: 30px;
-	
-
-}
-
-#enter:hover{
-	background-color: black;
-	color: white;
+textarea {
+    width: 1000px;
+    height: 50px;
+    position: fixed;
+    top: 530px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+    resize: none;
+    font-size: 15px;
+    border: solid black 1px;
 }
 
 
-#chat{
-	width: 1004px;
-	height: 445px;
-	background-color: white;
-	position: fixed;
-	top: 70px;
-	color: black;
-	text-align: left;
-
-
+#spis {
+    width: 200px;
+    height: 444px;
+    background-color: white;
+    position: fixed;
+    left: 1020px;
+    top: 70px;
+    border: solid black 1px;
+    text-align: center;
 }
 
-#fon1{
-		background-image: url(../Images/allergiya-na-semechki.jpg);
-		width: 1004px;
-	    height: 445px;
-		opacity: 0.4;
-		position: fixed;
-	    top: 70px;
+#vidz {
+    width: 1003px;
+    height: 20px;
+    background-color: white;
+    border: solid black 1px;
+    position: fixed;
+    top: 43px;
+    text-align: center;
+}
 
+#name {
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    border: solid black 1px;
+    position: fixed;
+    left: 1020px;
+    top: 43px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#enter {
+    width: 200px;
+    height: 55px;
+    background-color: white;
+    border: solid black 1px;
+    position: fixed;
+    top: 530px;
+    left: 1020px;
+    font-size: 30px;
+}
+
+#connect {
+    width: 1007px;
+    height: 50px;
+    background-color: white;
+    border: solid black 1px;
+    position: fixed;
+    top: 43px;
+    text-align: center;
+}
+
+#connect:hover{
+    background-color:black;
+    color:white;
+}
+
+    #enter:hover {
+        background-color: black;
+        color: white;
+    }
+
+
+#chat {
+    width: 1004px;
+    height: 445px;
+    background-color: white;
+    position: fixed;
+    top: 70px;
+    color: black;
+    text-align: left;
+}
+
+#fon1 {
+    background-image: url(../Images/allergiya-na-semechki.jpg);
+    width: 1004px;
+    height: 445px;
+    opacity: 0.4;
+    position: fixed;
+    top: 70px;
 }
 
 
-#text{
-	position: fixed;
-	left: 30px;
+#text {
+    position: fixed;
+    left: 30px;
 }
