@@ -13,6 +13,7 @@ namespace gnoiniyProject.Hubs
 
         public void Send(string name, string message)
         {
+            if (message != "")
             Clients.All.addMessage(name, message);
         }
 

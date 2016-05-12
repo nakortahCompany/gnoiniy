@@ -35,8 +35,8 @@
     $.connection.hub.start().done(function () {
         // отправка сообщения
         $('#enter').click(function () {
-            chat.server.send($('#name').val(), $('#message').val());
-            $('#message').val('');
+                 chat.server.send($('#name').val(), $('#message').val());
+                 $('#message').val('');
         });
         // логин
         $('#connect').click(function () {
@@ -59,12 +59,13 @@ function htmlEncode(value) {
 }
 // Добавление юзверя в список
 function AddUser(id, name) {
-    $("#userList").append('<dt id="' + id + '">' +name+ '</dt>');
+    $("#userList").append('<dt id="' + id + '">' + name + '</dt>');
 }
 
 document.onkeyup = function (e) {
     e = e || window.event;
     if ((e.keyCode === 13) && (document.getElementById("message").readOnly === false)) {
+        e.preventDefault();
         $('#enter').click();
-    }
-};
+    } 
+}; 
