@@ -91,7 +91,7 @@ textarea{
 }
 
 #fon1{
-		background-image: url(images/allergiya-na-semechki.jpg);
+		background-image: url(~/Content/Images/allergiya-na-semechki.jpg);
 		width: 1004px;
 	    height: 445px;
 		opacity: 0.4;

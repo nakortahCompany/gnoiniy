@@ -33,6 +33,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DeployEncryptKey>Encryption password is used only if any deployment setting is marked as secure</DeployEncryptKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -91,6 +92,15 @@
   <ItemGroup>
     <Content Include="Content\css\index.css" />
     <Content Include="Content\css\main.css" />
+    <Content Include="Content\Images\67cad378dfca3457fd1b38b150b9e27f_w960_h2048.jpg" />
+    <Content Include="Content\Images\all.jpg" />
+    <Content Include="Content\Images\allergiya-na-semechki.jpg" />
+    <Content Include="Content\Images\fon.jpg" />
+    <Content Include="Content\Images\gon1.png" />
+    <Content Include="Content\Images\gon2.png" />
+    <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\logo2.png" />
+    <Content Include="Content\Images\Снимок.PNG" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-2.2.3.min.js" />
     <Content Include="Scripts\login.js" />
@@ -110,6 +120,8 @@
     <Content Include="packages.config" />
     <Content Include="Views\chat\Index.cshtml" />
     <Content Include="Views\chat\main.cshtml" />
+    <Content Include="Content\Images\Без имени-1.psd" />
+    <None Include="Properties\PublishProfiles\nakortah.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -119,7 +131,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Images\" />
     <Folder Include="fonts\" />
     <Folder Include="Models\" />
   </ItemGroup>
