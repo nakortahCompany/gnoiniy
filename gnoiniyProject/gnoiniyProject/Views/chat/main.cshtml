@@ -2,34 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chat</title>
+    <title>TEST.V1.2</title>
     <script src="~/Scripts/jquery-2.2.3.min.js"></script>
     <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
     <script src="~/signalr/hubs"></script>
     <script src="~/Scripts/util.js"></script>
-    <link href="~/Content/css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/main.css">
 </head>
 <body>
+    <div id="box">
 
-    <div id=chat>
-        <div id="text">
+        <div id="right">
+            <div id="chat">
+            </div>
+            <textarea id="enter" placeholder="Введите сообщение..."></textarea>
         </div>
-        <div id="fon1"></div>
+
+        <div id="left">
+            <div id="myNick">@ViewBag.Name</div>
+            <div id="list">
+            </div>
+            <button id=press>Отправить</button>
+        </div>
+
     </div>
-    <textarea id="message" maxlength="256" type="text" readonly placeholder="Введите сообщение..."></textarea>
-
-
-    <div id=spis>
-        <dl id="userList">
-        </dl>
-    </div>
-    <div id=vidz>виджЕты</div>
-    <div><textarea maxlength="10" typeof="text" placeholder="Кликуха?.." id="name"></textarea></div>
-    <button id="connect"> осталось с авторизацией/куком разобраться, пока введи ник справа и жми сюда <b> ЖМЮ </b> </button>
-
-    <button id=enter>Вбросить</button>
-
-    <input id="hdId" type="hidden"/>
-    <input id="username" type="hidden"/>
 </body>
 </html>

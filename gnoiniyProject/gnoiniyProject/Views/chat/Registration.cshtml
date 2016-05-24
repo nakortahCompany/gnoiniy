@@ -1,0 +1,42 @@
+﻿@model gnoiniyProject.Models.RegisterModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/css/Registration.css">
+</head>
+<body>
+
+
+
+    <div id="box">
+
+        <div id="top">Регистрация<hr id="one"></div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div id="center">
+                @Html.EditorFor(model => model.Login, new { htmlAttributes = new { placeholder = "Login" } })
+                <div class="errorMsg">@Html.ValidationMessageFor(model => model.Login)</div>
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { placeholder = "Password" } })
+                <div class="errorMsg">@Html.ValidationMessageFor(model => model.Password)</div>
+                @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { placeholder = "Confirm" } })
+                <div class="errorMsg">@Html.ValidationMessageFor(model => model.ConfirmPassword)</div>
+                @Html.EditorFor(model => model.NickName, new { htmlAttributes = new { placeholder = "Name" } })
+                <div class="errorMsg">@Html.ValidationMessageFor(model => model.NickName)</div>
+                @Html.ValidationSummary(false)
+                <!--<input id="login" placeholder="Логин:" />
+                <input id="password" type="password" placeholder="Пароль:" />
+                <input id="passwordagain" type="password" placeholder="Повтор пароля:" />
+                <input id="nickname" placeholder="Никнейм:" />
+                    -->
+            </div>
+            <div id="bot">
+                <button id="pressRega" type="submit">Зарегистрироваться</button>
+                <hr id="two">
+            </div>
+        }
+    </div>
+</body>
+</html>

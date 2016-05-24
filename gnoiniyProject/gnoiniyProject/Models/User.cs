@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 
 namespace gnoiniyProject.Models
 {
@@ -9,6 +6,7 @@ namespace gnoiniyProject.Models
     {
         public string ConnectionId { get; set; }
         public string Name { get; set; }
+        public List<string> Connections { get; set; }
+        public string Style { get; set; }
     }
-
 }
